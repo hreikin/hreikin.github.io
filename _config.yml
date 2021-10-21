@@ -11,7 +11,7 @@ city: Saltcoats
 state:
 zip_code:
 country: Scotland
-phone: (716) 555-5555
+alias: "@hreikin"
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
