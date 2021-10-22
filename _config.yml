@@ -2,7 +2,7 @@
 title: hreikin
 subtitle: "- just another dev's site"
 email: hreikin@gmail.com
-description: This is my Dev site, i made it so you can get to know me. <br /> It is made with the wonderful Jekyll and the Forty theme.
+description: This is my Dev site, i made it so you can get to know me. <br /> It is made with Jekyll and the wonderful Forty theme.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://localhost:4000 # the base hostname & protocol for your site
 author: hreikin
@@ -45,3 +45,8 @@ exclude:
 - THEME-CONTRIBUTING.md
 - THEME-README.md
 - README.md
+- CREDITS.md
+- landing.md
+- generic.md
+- all_posts.md
+- elements.md
