@@ -46,7 +46,7 @@ exclude:
 - THEME-README.md
 - README.md
 - CREDITS.md
-- landing.md
-- generic.md
-- all_posts.md
-- elements.md
+- theme-landing.md
+- theme-generic.md
+- theme-all_posts.md
+- theme-elements.md
