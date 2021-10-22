@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About Me
-image: assets/images/pic11.jpg
+image: assets/images/mohammad-rahmani-unsplash-about-900x300.jpg
 nav-menu: true
 show_tile: false
 ---
