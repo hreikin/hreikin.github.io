@@ -13,26 +13,26 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>So What Have I Actually Done ?</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>I have always been interested in Linux and Open Source software and in previous iterations of my website I have generally written accompanying posts to help describe the process or function of the tools I have used along with many, many guides on how to install, configure or use them. Unfortunately most of the posts are now long gone due to my previous poor backup practices however some of the repositories containing the code or files still remain. Below are some of my previous and more recent projects with a little description about each one and a link to the projects page providing a more detailed description as well as any links to the code or files if they are available, I hope you enjoy reading about them as much as I did when using and creating them.</p>
 	</div>
 </section>
 
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+		<a href="/projects/bookstack.html" class="image">
+			<img src="{% link assets/images/bookstack-page-view-576x515.png %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>BookStack</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>BookStack is an easy to use, self hosted platform for organising and storing information. It is fully free and open source with an MIT license and has a very simple and easy to grasp interface. I am using BookStack at home to host information and guides for various topics along with course related material to help with my studying.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="/projects/bookstack.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
