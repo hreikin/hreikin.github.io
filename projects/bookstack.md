@@ -26,6 +26,7 @@ show_tile: false
 			<h2>What Does It Look Like ?</h2>
 		</header>
         <p>BookStack has a sleek and modern interface with support for both dark and light themes, it is very refreshing and a far cry from some of the more traditional wiki software options. A <a href="https://demo.bookstackapp.com/login?email=admin@example.com&password=password" target="_blank">Live Demo</a> is available on the website if you want to take a closer look at it and below I have included some screenshots of my BookStack instance to help give you an idea of what it is like.</p>
+        {% responsive_image path: assets/images/bookstack-page-view-1977x1080.png %}
 	</div>
 </section>
 
