@@ -15,7 +15,7 @@ nav-menu: true
 		<header class="major">
 			<h2>So What Have I Actually Done ?</h2>
 		</header>
-		<p>I have always been interested in Linux and Open Source software and in previous iterations of my website I have generally written accompanying posts to help describe the process or function of the tools I have used along with many, many guides on how to install, configure or use them. Unfortunately most of the posts are now long gone due to my previous poor backup practices however some of the repositories containing the code or files still remain. Below are some of my previous and more recent projects with a little description about each one and a link to the projects page providing a more detailed description as well as any links to the code or files if they are available, I hope you enjoy reading about them as much as I did when using and creating them.</p>
+		<p>I have always been interested in Linux and Open Source software and in previous iterations of my website I have generally written accompanying posts to help describe the process or function of the tools I have used along with many, many guides on how to install, configure or use them. Unfortunately most of the posts are now long gone due to my previous poor backup practices however some of the repositories containing the code or files still remain. Below are some of my previous and more recent projects with a little description about each one and a link to the individual projects page providing a more detailed description as well as any links to the code or files if they are available, I hope you enjoy reading about them as much as I did when using and creating them.</p>
 	</div>
 </section>
 
