@@ -26,22 +26,23 @@ show_tile: false
 			<h2>What Does It Look Like ?</h2>
 		</header>
         <p>BookStack has a sleek and modern interface with support for both dark and light themes, it is very refreshing and a far cry from some of the more traditional wiki software options. A <a href="https://demo.bookstackapp.com/login?email=admin@example.com&password=password" target="_blank">Live Demo</a> is available on the website if you want to take a closer look at it and below I have included some screenshots from the official website to help give you an idea of what it is like.</p>
-        <div class="row">
+        <section class="row">
             <a class="image column" href="../assets/images/bookstack-page-view-1977x1080.png" target="_blank">
-                {% responsive_image path: assets/images/bookstack-page-view-1977x1080.png %}
+                {% responsive_image path: assets/images/bookstack-page-view-1977x1080.png alt: "BookStack Page View" title: "Bookstack Page View" %}
             </a>
             <a class="image column" href="../assets/images/bookstack-page-view-1977x1080.png" target="_blank">
-                {% responsive_image path: assets/images/bookstack-books-view-1977x1080.png %}
+                {% responsive_image path: assets/images/bookstack-books-view-1977x1080.png alt: "BookStack Books View" title: "Bookstack Books View" %}
             </a>
-        </div>
-        <div class="row">
+        </section>
+        <section class="row">
             <a class="image column" href="../assets/images/bookstack-page-view-1977x1080.png" target="_blank">
-                {% responsive_image path: assets/images/bookstack-book-overview-1977x1080.png %}
+                {% responsive_image path: assets/images/bookstack-book-overview-1977x1080.png alt: "BookStack Book Overview" title: "Bookstack Book Overview" %}
             </a>
             <a class="image column" href="../assets/images/bookstack-page-view-1977x1080.png" target="_blank">
-                {% responsive_image path: assets/images/bookstack-image-manager-1977x1080.png %}
+                {% responsive_image path: assets/images/bookstack-image-manager-1977x1080.png alt: "BookStack Image Manager" title: "Bookstack Image Manager" %}
             </a>
-        </div>
+        </section>
+        <p style="padding-top: 1.5em;">At the moment my BookStack wiki is a little rough around the edges as it is still a work in progress so I don't have much else to show and I am only hosting it locally, once I have enough content on there I will be hosting it online alongside this website. If you want to find out more information about it and start hosting your own amazing BookStack wiki then check out the project links that I have listed down below.</p>
 	</div>
 </section>
 
@@ -51,7 +52,7 @@ show_tile: false
 		<header class="major">
 			<h2>Project Links</h2>
 		</header>
-		<p>For more information about the BookStack project check out the links listed below.</p>
+		<p>For more information about the BookStack project check out these links.</p>
 		<ul>
 			<li><a href="https://www.bookstackapp.com/" target="_blank">BookStack Website</a></li>
             <li><a href="https://github.com/BookStackApp/BookStack" target="_blank">GitHub Repository</a></li>
