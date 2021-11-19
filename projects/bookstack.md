@@ -16,7 +16,7 @@ show_tile: false
 		<header class="major">
 			<h2>What Is BookStack ?</h2>
 		</header>
-		<p>BookStack is an amazing piece of Open Source wiki software and I absolutely love it, I am using BookStack at home to host information and guides for various topics along with course related material to help with my studying. It is an easy to use, self hosted platform for organising and storing information that has a very simple, yet very powerful and full featured UI. A better description of BookStack which I have taken from the projects <a href="https://github.com/BookStackApp/BookStack" target="_blank">Github Page</a> is below.</p>
+		<p>BookStack is an amazing piece of Open Source wiki software and I absolutely love it, I am using BookStack at home to host information and guides I have followed for various topics along with course related material to help with my studying. It is an easy to use, self hosted platform for organising and storing information that has a very simple, yet very powerful and full featured UI. A better description of BookStack which I have taken from the projects <a href="https://github.com/BookStackApp/BookStack" target="_blank">Github Page</a> is below.</p>
         <blockquote cite="https://github.com/BookStackApp/BookStack">
             <p>BookStack is an opinionated wiki system that provides a pleasant and simple out-of-the-box experience. New users to an instance should find the experience intuitive and only basic word-processing skills should be required to get involved in creating content on BookStack. The platform should provide advanced power features to those that desire it but they should not interfere with the core simple user experience.</p>
             <figcaption><b>— Dan Brown, Main Developer, <cite>GitHub</cite></b></figcaption>
@@ -25,8 +25,23 @@ show_tile: false
         <header class="major">
 			<h2>What Does It Look Like ?</h2>
 		</header>
-        <p>BookStack has a sleek and modern interface with support for both dark and light themes, it is very refreshing and a far cry from some of the more traditional wiki software options. A <a href="https://demo.bookstackapp.com/login?email=admin@example.com&password=password" target="_blank">Live Demo</a> is available on the website if you want to take a closer look at it and below I have included some screenshots of my BookStack instance to help give you an idea of what it is like.</p>
-        {% responsive_image path: assets/images/bookstack-page-view-1977x1080.png %}
+        <p>BookStack has a sleek and modern interface with support for both dark and light themes, it is very refreshing and a far cry from some of the more traditional wiki software options. A <a href="https://demo.bookstackapp.com/login?email=admin@example.com&password=password" target="_blank">Live Demo</a> is available on the website if you want to take a closer look at it and below I have included some screenshots from the official website to help give you an idea of what it is like.</p>
+        <div class="row">
+            <a class="image column" href="../assets/images/bookstack-page-view-1977x1080.png" target="_blank">
+                {% responsive_image path: assets/images/bookstack-page-view-1977x1080.png %}
+            </a>
+            <a class="image column" href="../assets/images/bookstack-page-view-1977x1080.png" target="_blank">
+                {% responsive_image path: assets/images/bookstack-books-view-1977x1080.png %}
+            </a>
+        </div>
+        <div class="row">
+            <a class="image column" href="../assets/images/bookstack-page-view-1977x1080.png" target="_blank">
+                {% responsive_image path: assets/images/bookstack-book-overview-1977x1080.png %}
+            </a>
+            <a class="image column" href="../assets/images/bookstack-page-view-1977x1080.png" target="_blank">
+                {% responsive_image path: assets/images/bookstack-image-manager-1977x1080.png %}
+            </a>
+        </div>
 	</div>
 </section>
 
