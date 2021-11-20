@@ -15,44 +15,12 @@ nav-menu: true
 		<header class="major">
 			<h2>So What Have I Actually Done ?</h2>
 		</header>
-		<p>I have always been interested in Linux and Open Source software and in previous iterations of my website I have generally written accompanying posts to help describe the process or function of the tools I have used along with many, many guides on how to install, configure or use them. Unfortunately most of the posts are now long gone due to my previous poor backup practices however some of the repositories containing the code or files still remain. Below are some of my previous and more recent projects with a little description about each one and a link to the individual projects page providing a more detailed description as well as any links to the code or files if they are available, I hope you enjoy reading about them as much as I did when using and creating them.</p>
+		<p>I have always been interested in Linux and Open Source software and in previous iterations of my website I have generally written accompanying posts to help describe the process or function of the tools I have used along with many, many guides on how to install, configure or use them. Unfortunately most of the posts are now long gone due to my previous poor backup practices however some of the repositories containing the code or files still remain. Below are some of my previous and more recent projects with a little description about each one and a link to the individual projects page providing a more detailed description as well as any links to the code or files if they are available, I hope you enjoy reading about them as much as I did when using or creating them.</p>
 	</div>
 </section>
 
 <!-- Two -->
 <section id="two" class="spotlights">
-	<section>
-		<a href="/projects/bookstack.html" class="image">
-			<img src="{% link assets/images/bookstack-page-view-576x515.png %}" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>BookStack</h3>
-				</header>
-				<p>BookStack is an easy to use, self hosted platform for organising and storing information. It is fully free and open source with an MIT license and has a very simple and easy to grasp interface. I am using BookStack at home to host information and guides for various topics along with course related material to help with my studying.</p>
-				<ul class="actions">
-					<li><a href="/projects/bookstack.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Rhoncus magna</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
 	<section>
 		<a href="generic.html" class="image">
 			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
@@ -65,6 +33,38 @@ nav-menu: true
 				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="/projects/interactive-campaign-map.html" class="image">
+			<img src="{% link assets/images/interactive-campaign-map-01-576x515.png %}" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Interactive Campaign Map</h3>
+				</header>
+				<p>I created the Interactive Campaign Map to let campaign arbitrators and GM's create an interactive map for use in their tabletop or roleplaying games. It is made with Leaflet.js which is an open-source JavaScript library made for mobile-friendly interactive maps.</p>
+				<ul class="actions">
+					<li><a href="/projects/interactive-campaign-map.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="/projects/self-hosted-wiki.html" class="image">
+			<img src="{% link assets/images/bookstack-page-view-576x515.png %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Self Hosted Wiki</h3>
+				</header>
+				<p>BookStack is an easy to use, self hosted platform for organising and storing information. It was created by Dan Brown and is fully free and open source with an MIT license and has a very simple and easy to use interface. I am using BookStack at home to host information and guides for various topics along with course related material to help with my studying.</p>
+				<ul class="actions">
+					<li><a href="/projects/self-hosted-wiki.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
