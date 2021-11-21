@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: landing
-description: 'Take a look at some of my varied projects,<br />ranging from Game Design to Linux packages.'
+description: 'Take a look at some of my previous projects,<br />ranging from Game Design to Linux packages.'
 image: assets/images/jainath-ponnala-unsplash-projects-1440x575.jpg
 nav-menu: true
 ---
@@ -22,17 +22,17 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+		<a href="/projects/arch-linux-arm-packages.html" class="image">
+			<img src="{% link assets/images/arch-linux-arm-logo-576x515.png %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Sed nunc ligula</h3>
+					<h3>Arch Linux ARM Packages</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>The PKGBUILD's inside this repository were created to fix some of the earlier issues with running Arch Linux ARM and other software on the Odroid U3. The Odroid U3 is an SBC similar to the Raspberry Pi but with a little more power and different hardware.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="/projects/arch-linux-arm-packages.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
