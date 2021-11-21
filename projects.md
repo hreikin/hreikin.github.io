@@ -69,6 +69,22 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
+	<section>
+		<a href="/projects/simple-side-scroller.html" class="image">
+			<img src="{% link assets/images/simplesidescroller-screenshot-01-576x515.png %}" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Simple Side Scroller</h3>
+				</header>
+				<p>Simple Side Scroller is a 2D side scroller I am currently developing in Unreal Engine 4. I plan to release it on Android and have a web based version for the initial release of the game with support for other platforms possibly coming later. The initial release of the game will include 30 levels spread across 3 different game modes.</p>
+				<ul class="actions">
+					<li><a href="/projects/simple-side-scroller.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 </section>
 
 <!-- Three -->
