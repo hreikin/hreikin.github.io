@@ -5,4 +5,6 @@
 [Latest Posts](https://unsplash.com/photos/YLSwjSy7stw)
 [Being Social](https://unsplash.com/photos/KdeqA3aTnBY)
 [So You Want To Be A Developer Banner](https://unsplash.com/photos/6sAl6aQ4OWI)
-[Bookstack Banner And Project Page](https://www.bookstackapp.com/images/screenshots/page-view.png)
+[BookStack Project Page Banner And Screenshots](https://www.bookstackapp.com/)
+[Interactive Campaign Map Banner And Screenshots](https://www.talanrien.com/karta/)
+[Arch Linux ARM Logo](https://commons.wikimedia.org/wiki/File:Arch_Linux_ARM_logo.svg)
