@@ -2,7 +2,7 @@
 layout: landing
 title: Simple Side Scroller
 description: A simple 2D side scroller made with UE4
-image: assets/images/simplesidescroller-screenshot-header.png
+image: assets/images/simple-side-scroller-02.png
 nav-menu: false
 show_tile: false
 ---
@@ -25,21 +25,21 @@ show_tile: false
         <header class="major">
 			<h2>What Does It Look Like ?</h2>
 		</header>
-        <p>As the game will be free I am trying to keeps costs to an absolute minimum so all assets used within the game are open source and freely available from various great websites like OpenGameArt and Itch.io. Thankfully there is a vast amount of great content on these sites which made my job of finding assets much easier. I have kept the look and feel of Simple Side Scroller similar to games like Super Mario with a slighlty more modern approach to the assets rather than going for the traditional retro look.</p>
+        <p>As the game will be free I am trying to keeps costs to an absolute minimum so all assets used within the game are open source and freely available from various great websites like <a href="https://opengameart.org/" target="_blank">OpenGameArt</a> and <a href="https://itch.io/" target="_blank">Itch.io</a>. Thankfully there is a vast amount of great content on these sites which made my job of finding assets much easier. I have kept the look and feel of Simple Side Scroller similar to games like Super Mario with a slightly more modern approach to the assets rather than going for the traditional retro look.</p>
         <section class="row">
-            <a class="image column" href="../assets/images/simplesidescroller-screenshot-01.png" target="_blank">
-                {% responsive_image path: assets/images/simplesidescroller-screenshot-01.png alt: "Campaign Overview" title: "Campaign Overview" %}
+            <a class="image column" href="../assets/images/simple-side-scroller-01.png" target="_blank">
+                {% responsive_image path: assets/images/simple-side-scroller-01.png alt: "Simple Side Scroller Level Editor Preview" title: "Simple Side Scroller Level Editor Preview" %}
             </a>
-            <a class="image column" href="../assets/images/simplesidescroller-screenshot-01.png" target="_blank">
-                {% responsive_image path: assets/images/simplesidescroller-screenshot-01.png alt: "Campaign Overview With Info Popup" title: "Campaign Overview With Info Popup" %}
+            <a class="image column" href="../assets/images/simple-side-scroller-02.png" target="_blank">
+                {% responsive_image path: assets/images/simple-side-scroller-02.png alt: "Simple Side Scroller Blueprint" title: "Simple Side Scroller Blueprint" %}
             </a>
         </section>
         <section class="row">
-            <a class="image column" href="../assets/images/simplesidescroller-screenshot-01.png" target="_blank">
-                {% responsive_image path: assets/images/simplesidescroller-screenshot-01.png alt: "Campaign Overview With Layers" title: "Campaign Overview With Layers" %}
+            <a class="image column" href="../assets/images/simple-side-scroller-03.png" target="_blank">
+                {% responsive_image path: assets/images/simple-side-scroller-03.png alt: "Simple Side Scroller Player" title: "Simple Side Scroller Player" %}
             </a>
-            <a class="image column" href="../assets/images/simplesidescroller-screenshot-01.png" target="_blank">
-                {% responsive_image path: assets/images/simplesidescroller-screenshot-01.png alt: "Campaign Overview Zoomed In" title: "Campaign Overview Zoomed In" %}
+            <a class="image column" href="../assets/images/simple-side-scroller-04.png" target="_blank">
+                {% responsive_image path: assets/images/simple-side-scroller-04.png alt: "Simple Side Scroller Boss Level Editor Preview" title: "Simple Side Scroller Boss Level Editor Preview" %}
             </a>
         </section>
         <p style="padding-top: 1.5em;">The basic concept for the game is similar to any other side scroller like Super Mario, the player has to complete the level within the time limit, defeating enemies and collecting coins, gems and the key required to exit the level along the way. The player can choose between different characters with different abilities to complete the game, spending the gems they collect while playing to use their abilities. Development is moving along quickly and I expect a beta release to be available soon, stay tuned for future development updates on the <a href="../latest-posts.html" target="_blank">blog</a> or check out the project links listed down below.</p>
@@ -57,6 +57,8 @@ show_tile: false
             <li><a href="https://github.com/hreikin/simple-side-scroller" target="_blank">GitHub Repository</a></li>
             <li><a href="https://www.unrealengine.com/" target="_blank">Unreal Engine Official Website</a></li>
             <li><a href="https://docs.unrealengine.com/4.27/en-US/" target="_blank">Unreal Engine Documentation</a></li>
+            <li><a href="https://opengameart.org/" target="_blank">OpenGameArt</a></li>
+            <li><a href="https://itch.io/" target="_blank">Itch.io</a></li>
 		</ul>
 	</div>
 </section>
