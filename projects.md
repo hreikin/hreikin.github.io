@@ -22,17 +22,17 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="/projects/arch-linux-arm-packages.html" class="image">
-			<img src="{% link assets/images/arch-linux-arm-logo-576x515.png %}" alt="" data-position="25% 25%" />
+		<a href="/projects/home-lab.html" class="image">
+			<img src="{% link assets/images/jainath-ponnala-unsplash-projects-576x515.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Arch Linux ARM Packages</h3>
+					<h3>Home Lab</h3>
 				</header>
-				<p>The PKGBUILD's inside this repository were created to fix some of the earlier issues with running Arch Linux ARM and other software on the Odroid U3. The Odroid U3 is an SBC similar to the Raspberry Pi but with a little more power and different hardware.</p>
+				<p>I use my Home Lab for hosting various different services at home, as I am studying to become a System Admin it allows me to practice the things I have learned in the safety of my own environment. At the moment it is cobbled together from various pieces of old hardware I have laying around but for me it is perfect for the practical experience it brings with it.</p>
 				<ul class="actions">
-					<li><a href="/projects/arch-linux-arm-packages.html" class="button">Learn more</a></li>
+					<li><a href="/projects/home-lab.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -86,34 +86,21 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="/projects/home-lab.html" class="image">
-			<img src="{% link assets/images/jainath-ponnala-unsplash-projects-576x515.jpg %}" alt="" data-position="center center" />
+		<a href="/projects/arch-linux-arm-packages.html" class="image">
+			<img src="{% link assets/images/arch-linux-arm-logo-576x515.png %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Home Lab</h3>
+					<h3>Arch Linux ARM Packages</h3>
 				</header>
-				<p>I use my Home Lab for hosting various different services at home, as I am studying to become a System Admin it allows me to practice the things I have learned in the safety of my own environment. At the moment it is cobbled together from various pieces of old hardware I have laying around but for me it is perfect for the practical experience it brings with it.</p>
+				<p>The PKGBUILD's inside this repository were created to fix some of the earlier issues with running Arch Linux ARM and other software on the Odroid U3. The Odroid U3 is an SBC similar to the Raspberry Pi but with a little more power and different hardware.</p>
 				<ul class="actions">
-					<li><a href="/projects/home-lab.html" class="button">Learn more</a></li>
+					<li><a href="/projects/arch-linux-arm-packages.html" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
-</section>
-
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
 </section>
 
 </div>
