@@ -85,6 +85,22 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
+	<section>
+		<a href="/projects/home-lab.html" class="image">
+			<img src="{% link assets/images/jainath-ponnala-unsplash-projects-576x515.jpg %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Home Lab</h3>
+				</header>
+				<p>I use my Home Lab for hosting various different services at home, as I am studying to become a System Admin it allows me to practice the things I have learned in the safety of my own environment. At the moment it is cobbled together from various pieces of old hardware I have laying around but for me it is perfect for the practical experience it brings with it.</p>
+				<ul class="actions">
+					<li><a href="/projects/home-lab.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 </section>
 
 <!-- Three -->
