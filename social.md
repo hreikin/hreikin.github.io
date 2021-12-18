@@ -23,7 +23,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="https://github.com/hreikin" class="image" target="_blank">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/Octocat-576x515.png %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -39,7 +39,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="https://gitlab.com/hreikin" class="image" target="_blank">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/Gitlab-576x515.png %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -55,7 +55,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="https://stackoverflow.com/users/5289444/hreikin" class="image" target="_blank">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/stackoverflow-576x515.png %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -71,7 +71,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="https://glasgow.social/@hreikin" class="image" target="_blank">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/mastodon-576x515.png %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
