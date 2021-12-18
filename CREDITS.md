@@ -8,3 +8,7 @@
 [BookStack Project Page Banner And Screenshots](https://www.bookstackapp.com/)
 [Interactive Campaign Map Banner And Screenshots](https://www.talanrien.com/karta/)
 [Arch Linux ARM Logo](https://commons.wikimedia.org/wiki/File:Arch_Linux_ARM_logo.svg)
+[GitHub Logo](https://github.com/logos)
+[GitLab Logo](https://about.gitlab.com/press/press-kit/)
+[StackOverflow Logo](https://commons.wikimedia.org/wiki/File:Stack_Overflow_icon.svg)
+[Mastodon Logo](https://commons.wikimedia.org/wiki/File:Mastodon_Logotype_(Simple).svg)
