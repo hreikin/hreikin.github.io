@@ -4,6 +4,7 @@ title: Being Social
 description: Places you can find me.
 image: assets/images/dylan-gillis-social-unsplash-900x300.jpg
 nav-menu: true
+show_tile: true
 ---
 
 <!-- Main -->

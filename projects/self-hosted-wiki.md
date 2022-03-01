@@ -4,7 +4,7 @@ title: BookStack
 description: Simple And Free Wiki Software
 image: assets/images/bookstack-page-view-1977x1080.png
 nav-menu: false
-show_tile: false
+show_tile: true
 ---
 
 <!-- Main -->

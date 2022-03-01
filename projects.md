@@ -4,6 +4,7 @@ layout: landing
 description: 'Take a look at some of my previous projects,<br />ranging from Game Design to Linux packages.'
 image: assets/images/jainath-ponnala-unsplash-projects-1440x575.jpg
 nav-menu: true
+show_tile: false
 ---
 
 <!-- Main -->

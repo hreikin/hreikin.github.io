@@ -4,7 +4,7 @@ title: Simple Side Scroller
 description: A simple 2D side scroller made with UE4
 image: assets/images/simple-side-scroller-02.png
 nav-menu: false
-show_tile: false
+show_tile: true
 ---
 
 <!-- Main -->

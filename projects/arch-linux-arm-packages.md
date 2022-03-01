@@ -4,7 +4,7 @@ title: Arch Linux ARM Packages
 description: PKGBUILD's for Arch Linux ARM On The Odroid U3
 image: assets/images/arch-linux-arm-logo.png
 nav-menu: false
-show_tile: false
+show_tile: true
 ---
 
 <!-- Main -->

@@ -4,7 +4,7 @@ title: Interactive Campaign Map
 description: Virtual Campaign Map For RPG's & Tabletop Games
 image: assets/images/interactive-campaign-map-01-1880x978.png
 nav-menu: false
-show_tile: false
+show_tile: true
 ---
 
 <!-- Main -->

@@ -4,7 +4,7 @@ title: Home Lab
 description: A Place For Me To Learn And Play
 image: assets/images/home-lab-04.png
 nav-menu: false
-show_tile: false
+show_tile: true
 ---
 
 <!-- Main -->
