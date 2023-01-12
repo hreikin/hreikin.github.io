@@ -21,9 +21,9 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_CATEGORY = 'misc'
 
 # Blogroll
-LINKS = (('Archives', '/archives/'),
-         ('Categories', '/categories/'),
-         ('Tags', '/tags/'),)
+LINKS = (('Archives', '/archives'),
+         ('Categories', '/categories'),
+         ('Tags', '/tags'),)
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/hreikin'),
