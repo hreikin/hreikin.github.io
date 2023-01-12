@@ -20,6 +20,25 @@ AUTHOR_FEED_RSS = None
 DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_CATEGORY = 'misc'
 
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight',
+            'linenums': True,
+            'guess_lang': True,
+        },
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        
+        'markdown_link_attr_modifier': {
+            'new_tab': 'external_only',
+            'no_referrer': 'external_only',
+            'auto_title': 'on',
+        },
+    },
+    'output_format': 'html5',
+}
+
 # Blogroll
 # LINKS = (('Archives', '/archives'),
 #          ('Categories', '/categories'),
