@@ -5,6 +5,7 @@ feedgenerator==2.0.0
 ghp-import==2.1.0
 Jinja2==3.1.2
 Markdown==3.4.1
+markdown-link-attr-modifier==0.2.0
 MarkupSafe==2.1.1
 pelican==4.8.0
 Pygments==2.14.0
