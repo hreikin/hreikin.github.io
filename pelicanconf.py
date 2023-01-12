@@ -1,7 +1,7 @@
 AUTHOR = '@hreikin'
 SITENAME = 'hreikin'
 TAGLINE = "developer"
-SITEURL = 'http://127.0.0.1:8000'
+SITEURL = ''
 THEME = 'theme'
 PATH = 'content'
 USER_LOGO_URL = SITEURL + '/images/qr-code.png'
