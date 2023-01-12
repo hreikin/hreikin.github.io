@@ -1,7 +1,7 @@
 AUTHOR = '@hreikin'
 SITENAME = 'hreikin'
 TAGLINE = "developer"
-SITEURL = ''
+SITEURL = 'https://hreikin.github.io'
 THEME = 'theme'
 PATH = 'content'
 USER_LOGO_URL = SITEURL + '/images/qr-code.png'
