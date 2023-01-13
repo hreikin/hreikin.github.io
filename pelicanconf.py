@@ -2,7 +2,7 @@ AUTHOR = '@hreikin'
 SITENAME = 'hreikin'
 TAGLINE = "developer"
 SITEURL = 'https://hreikin.github.io'
-THEME = 'theme'
+THEME = 'pelican-svbhack'
 PATH = 'content'
 USER_LOGO_URL = SITEURL + '/images/qr-code.png'
 
