@@ -24,8 +24,8 @@ MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {
             'css_class': 'highlight',
-            'linenums': True,
-            'guess_lang': True,
+            'linenums': False,
+            'guess_lang': False,
         },
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
