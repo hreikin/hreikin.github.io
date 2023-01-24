@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="http://127.0.0.1:8000/theme/css/style.less">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
+  -->
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="@hreikin">
+  <meta name="description" content="Posts and writings by @hreikin">
+
+
+
+  <title>
+    hreikin
+&ndash; What Is A Home Lab ?  </title>
+
+</head>
+
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href="http://127.0.0.1:8000">
+        <img src="http://127.0.0.1:8000/images/qr-code.png" alt="logo">
+      </a>
+      <h2><a href="http://127.0.0.1:8000">hreikin</a></h2>
+      <p>developer</p>
+      <ul>
+        <li><a href="http://127.0.0.1:8000/projects">Projects</a></li>
+        <li><a href="https://github.com/hreikin" target="_blank">Github</a></li>
+        <li><a href="https://gitlab.com/hreikin" target="_blank">Gitlab</a></li>
+        <li><a href="mailto:hreikin@gmail.com" target="_blank">Email</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <p>
+      <a href="http://127.0.0.1:8000">Index</a> &brvbar; <a href="http://127.0.0.1:8000/archives.html">Archives</a>
+      </p>
+    </header>
+
+<article>
+  <div class="article_title">
+    <h1><a href="http://127.0.0.1:8000/projects/homelab">What Is A Home Lab ?</a></h1>
+  </div>
+  <div class="article_text">
+    <p>There isn't really a set definition for the term 'Home Lab' as it means different things to different people, I'd personally describe it as something that someone could use to learn, test or tinker. I use my Home Lab for studying along with hosting various different services at home. The practical experience it brings me is invaluable in my journey to becoming a System Admin as it allows me to practice the things I have learned in the safety of my own environment. I am only just beginning my studying so it is currently cobbled together from various pieces of old hardware I have laying around but for me it is perfect. The <a href="https://www.techrepublic.com/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="Tech Republic">Tech Republic</a> describes a Home Lab as follows.</p>
+<blockquote>
+<p>Think of a home lab as the technology equivalent of the scientist's laboratory. It's a place where you can experiment with new technologies, attempt to interconnect various services in novel ways and quickly clean things up when you're done. While you might be picturing a huge rack of howling servers, fortunately for us you can now create the equivalent of a small data center on a single piece of physical equipment.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; <strong><cite>&ndash; Tech Republic Website</cite></strong></p>
+</blockquote>
+<p>My current Home Lab is very basic and quite small compared to most others I have seen online in places like <a href="https://www.reddit.com/r/homelab/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="r/homelab">r/homelab</a> but it works perfectly for what I need it to and apart from the ethernet switch it is made up entirely of hardware that was sitting around doing nothing. On top of the listed items below I also have my desktop and laptop which I use for day to day tasks as well as managing the services I have running over the network via SSH or the browser.</p>
+<ul>
+<li>5 Port TP-Link Managed Ethernet Switch</li>
+<li>2 x Raspberry Pi 1 Model B</li>
+<li>1 x Raspberry Pi Zero 2</li>
+<li>1 x Odroid U3</li>
+<li>1 x Intel Atom Netbook</li>
+<li>1 x 320 GB USB Hard Drive</li>
+<li>1 x TFT LCD Touch Screen</li>
+</ul>
+<h2>What Services Do I Host ?</h2>
+<p>I have quite a few different services running on my various devices and will try and outline them all now with a little description about what each one does. The 2 Raspberry Pi Model B's are running DietPi as their OS which is a Debian derivitive optimized to work on SBC's. One of them I have running PiHole and PiVPN for network-wide adblocking and access to my network from anywhere via the PiVPN server while the other hosts ownCloud for the family to keep their photos backed up. The Odroid U3 is running Arch and is my Docker machine which runs the following containers which are mainly for monitoring my network and providing detailed stats about each machine:</p>
+<ul>
+<li>Homer Dashboard</li>
+<li>FreshRSS</li>
+<li>Prometheus</li>
+<li>Grafana</li>
+<li>Uptime Kuma</li>
+<li>Gotify</li>
+<li>Portainer</li>
+</ul>
+<p>The netbook I use to host my BookStack wiki while the Raspberry Pi Zero 2 has an Apache web server running and is also my Docker test machine that I use for trying out various programs and services to see if I like them before deploying them to the Odroid U3.</p>
+<p><a href="/images/home-lab-01.png" target="_blank">
+    <img src="/images/home-lab-01.png" />
+</a>
+<a href="/images/home-lab-02.png" target="_blank">
+    <img src="/images/home-lab-02.png" />
+</a>
+<a href="/images/home-lab-03.png" target="_blank">
+    <img src="/images/home-lab-03.png" />
+</a>
+<a href="/images/home-lab-04.png" target="_blank">
+    <img src="/images/home-lab-04.png" />
+</a>
+<a href="/images/home-lab-05.png" target="_blank">
+    <img src="/images/home-lab-05.png" />
+</a>
+<a href="/images/home-lab-06.png" target="_blank">
+    <img src="/images/home-lab-06.png" />
+</a></p>
+<p>Each of these little machines runs perfectly for what I have been using them for and still has room to grow without taking up much space or costing much in electricity either. Next on my wishlist is a Raspberry Pi 4B with a Cluster HAT and 4 x Raspberry Pi Zero 2's so I can practice cluster computing at home with an affordable setup.</p>
+<h2>Project Links</h2>
+<p>For more information about Home Labs and Self Hosting check out these links.</p>
+<ul>
+<li><a href="https://www.reddit.com/r/homelab/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="r/Homelab">r/Homelab</a></li>
+<li><a href="https://www.reddit.com/r/homelab/wiki/index" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="r/Homelab Wiki">r/Homelab Wiki</a></li>
+<li><a href="https://www.reddit.com/r/selfhosted/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="r/Selfhosted">r/Selfhosted</a></li>
+<li><a href="https://www.reddit.com/r/selfhosted/wiki/index" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="r/Selfhosted Wiki">r/Selfhosted Wiki</a></li>
+</ul>
+  </div>
+  <div class="article_meta">
+    <p>Updated on: Thu 12 January 2023</p>
+  </div>
+</article>
+
+
+    <div id="ending_message">
+      <p>&copy; @hreikin. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>
+    </div>
+  </main>
+</body>
+</html>
