@@ -7,7 +7,7 @@ This repository holds the files for my website [hreikin.co.uk](https://hreikin.c
 ### Setup
 
 ```sh
-git clone --recursive https://github.com/hreikin/hreikin.github.io.git
+git clone --recurse-submodules https://github.com/hreikin/hreikin.github.io.git
 cd hreikin.github.io
 python -m venv .venv
 source .venv/bin/activate
