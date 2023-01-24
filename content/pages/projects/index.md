@@ -6,3 +6,7 @@ URL: projects
 save_as: projects.html
 
 Here you will find my projects.
+
+- [Arch Linux ARM Packages](/projects/arch-linux-arm-packages)
+- [Interactive Campaign Map](/projects/interactive-campaign-map)
+- [Simple Side Scroller](/projects/simple-side-scroller)
