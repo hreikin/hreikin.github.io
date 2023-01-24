@@ -23,7 +23,7 @@ pelican content
 pelican --listen --ignore-cache
 ```
 
-Push changes to build the updated site:
+Push changes to build the updated site (this seems convoluted, research is required on using a submodule for the theme as I think this is what is causing the issues):
 
 ```python
 git checkout gh-pages
