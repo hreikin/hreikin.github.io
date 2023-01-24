@@ -16,9 +16,22 @@ pip install -r requirements.txt
 
 ### Usage
 
+During development:
+
 ```python
 pelican content
 pelican --listen --ignore-cache
+```
+
+Push changes to build the updated site:
+
+```python
+git checkout gh-pages
+rm -rf pelican-svbhack
+git checkout pelican
+cd pelican-svbhack
+git submodule update
+cd ..
 ghp-import -n output
 git checkout gh-pages
 git push origin gh-pages
