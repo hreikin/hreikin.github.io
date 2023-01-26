@@ -5,7 +5,7 @@ Lang: en
 URL: projects
 save_as: projects.html
 
-Here you will find my projects.
+Here are some of my projects.
 
 - [Arch Linux ARM Packages](/projects/arch-linux-arm-packages)
 - [Interactive Campaign Map](/projects/interactive-campaign-map)
