@@ -1,5 +1,5 @@
 Title: BookStack - The Self-Hosted Wiki 
-Date: 2023-11-28 10:20
+Date: 2022-11-28 10:20
 Category: homelab
 Tags: open-source, software, self-hosting, wiki,
 Keywords: open-source, software, self-hosting, wiki,
