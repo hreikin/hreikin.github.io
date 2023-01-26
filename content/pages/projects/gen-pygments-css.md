@@ -5,3 +5,5 @@ Lang: en
 Status: hidden
 URL: projects/gen-pygments-css
 save_as: projects/gen-pygments-css.html
+
+Coming soon.
