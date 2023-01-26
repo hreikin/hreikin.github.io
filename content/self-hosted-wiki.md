@@ -9,7 +9,7 @@ Lang: en
 
 ## What Is BookStack?
 
-BookStack is an amazing piece of Open Source wiki software and I absolutely love it, I am using BookStack at home to host information and guides I have followed for various topics along with course related material to help with my studying. It is an easy to use, self hosted platform for organising and storing information that has a very simple, yet very powerful and full featured UI. A better description of BookStack which I have taken from the projects [GitHub Page](https://github.com/BookStackApp/BookStack) is below.
+BookStack is an amazing piece of Open Source wiki software and I absolutely love it, I am using BookStack at home to host information and guides I have followed for various topics along with course-related material to help with my studying. It is an easy-to-use, self-hosted platform for organising and storing information that has a very simple, yet very powerful and full-featured UI. A better description of BookStack which I have taken from the project's [GitHub Page](https://github.com/BookStackApp/BookStack) is below.
 
 >BookStack is an opinionated wiki system that provides a pleasant and simple out-of-the-box experience. New users to an instance should find the experience intuitive and only basic word-processing skills should be required to get involved in creating content on BookStack. The platform should provide advanced power features to those that desire it but they should not interfere with the core simple user experience.
 >
@@ -17,7 +17,7 @@ BookStack is an amazing piece of Open Source wiki software and I absolutely love
 
 BookStack was created by Dan Brown and has an awesome set of features which make it a joy to use compared to traditional wiki software which I find can be cumbersome at times. These make the process of creating documentation enjoyable rather than boring like most of the other options I have tried. You can host BookStack locally on a PC at home or online at many hosting providers, with it being built in PHP and using MySQL to store data it has very minimal system requirements. I am currently using an old netbook with 1GB of RAM and a 1 Core/2 Thread Atom processor which handles it brilliantly, I haven't tried it yet but I think an old Raspberry Pi or similar would be a great option to run this on.
 
-## What Does It Look Like ?
+## What Does It Look Like?
 
 BookStack has a sleek and modern interface with support for both dark and light themes, it is very refreshing and a far cry from some of the more traditional wiki software options. A [Live Demo](https://demo.bookstackapp.com/login?email=admin@example.com&password=password) is available on the website if you want to take a closer look at it and below I have included some screenshots from the official website to help give you an idea of what it is like.
 
