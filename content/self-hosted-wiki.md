@@ -1,4 +1,4 @@
-Title: BookStack - The Self Hosted Wiki
+Title: BookStack - The Self-Hosted Wiki 
 Date: 2023-11-28 10:20
 Category: homelab
 Tags: open-source, software, self-hosting, wiki,
@@ -7,7 +7,7 @@ Author: @hreikin
 Summary: BookStack is an opinionated wiki system that provides a pleasant and simple out-of-the-box experience.
 Lang: en
 
-# What Is BookStack ?
+## What Is BookStack?
 
 BookStack is an amazing piece of Open Source wiki software and I absolutely love it, I am using BookStack at home to host information and guides I have followed for various topics along with course related material to help with my studying. It is an easy to use, self hosted platform for organising and storing information that has a very simple, yet very powerful and full featured UI. A better description of BookStack which I have taken from the projects [GitHub Page](https://github.com/BookStackApp/BookStack) is below.
 
