@@ -19,6 +19,7 @@ AUTHOR_FEED_RSS = None
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_CATEGORY = 'misc'
+IGNORE_FILES = ['content/pages/projects/template.md']
 
 MARKDOWN = {
     'extension_configs': {
