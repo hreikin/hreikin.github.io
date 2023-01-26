@@ -7,11 +7,11 @@ This repository holds the files for my website [hreikin.co.uk](https://hreikin.c
 ### Setup
 
 ```sh
-git clone --recurse-submodules https://github.com/hreikin/hreikin.github.io.git
-cd hreikin.github.io
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+git clone --recurse-submodules https://github.com/hreikin/hreikin.github.io.git     # Clone repository
+cd hreikin.github.io                                                                # Change in to the new repository
+python -m venv .venv                                                                # Create venv
+source .venv/bin/activate                                                           # Source venv
+pip install -r requirements.txt                                                     # Install development requirements
 ```
 
 ### Usage
