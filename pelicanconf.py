@@ -1,7 +1,7 @@
 AUTHOR = '@hreikin'
 SITENAME = 'hreikin'
 TAGLINE = "developer"
-SITEURL = 'https://hreikin.github.io'
+SITEURL = 'http://127.0.0.1:8000'
 THEME = 'pelican-svbhack'
 PATH = 'content'
 USER_LOGO_URL = SITEURL + '/images/qr-code.png'
@@ -20,6 +20,8 @@ AUTHOR_FEED_RSS = None
 DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_CATEGORY = 'misc'
 IGNORE_FILES = ['content/pages/projects/template.md']
+STATIC_PATHS = ['extra/favicon.ico']
+EXTRA_PATH_METADATA = {'extra/favicon.ico': {'path': 'favicon.ico'},}
 
 MARKDOWN = {
     'extension_configs': {
