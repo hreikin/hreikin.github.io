@@ -6,7 +6,6 @@ Keywords: dev, development, linux, mobile, termux,
 Author: @hreikin
 Summary: An introduction to development on Android using Termux.
 Lang: en
-Status: draft
 
 Using Android for software or web development hasn't always been an easy or stable experience in the past however in recent years it has come on leaps and bounds. Previously I have used my phone to do things in a pinch when I have had no other option but recently I bought myself a tablet and wanted to see how feasible it would be to use it for software or web development and how far I could push it before running into any deal-breaking issues.
 
