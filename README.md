@@ -28,6 +28,5 @@ Push changes to build the updated site:
 ```python
 pelican content             # Important step, do not forget!
 ghp-import -n output        # Use ghp-import to update the gh-pages branch
-git checkout gh-pages       # Checkout gh-pages branch
 git push origin gh-pages    # Push changes
 ```
