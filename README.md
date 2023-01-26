@@ -19,15 +19,15 @@ pip install -r requirements.txt
 During development:
 
 ```python
-pelican content
-pelican --listen --ignore-cache
+pelican content                     # Build the site
+pelican --listen --ignore-cache     # Serve on development server at http://127.0.0.1:8000
 ```
 
 Push changes to build the updated site:
 
 ```python
-pelican content
-ghp-import -n output
-git checkout gh-pages
-git push origin gh-pages
+pelican content             # Important step, do not forget!
+ghp-import -n output        # Use ghp-import to update the gh-pages branch
+git checkout gh-pages       # Checkout gh-pages branch
+git push origin gh-pages    # Push changes
 ```
