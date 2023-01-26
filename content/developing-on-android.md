@@ -6,6 +6,7 @@ Keywords: dev, development, linux, mobile, termux,
 Author: @hreikin
 Summary: An introduction to development on Android using Termux.
 Lang: en
+Status: draft
 
 Hello, World!
 
