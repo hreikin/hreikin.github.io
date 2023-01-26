@@ -5,3 +5,5 @@ Lang: en
 Status: hidden
 URL: projects/termux-dev-setups
 save_as: projects/termux-dev-setups.html
+
+Coming soon.
