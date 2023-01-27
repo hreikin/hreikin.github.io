@@ -20,8 +20,8 @@ AUTHOR_FEED_RSS = None
 DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_CATEGORY = 'misc'
 IGNORE_FILES = ['content/pages/projects/template.md']
-STATIC_PATHS = ['content/extra/favicon.ico']
-EXTRA_PATH_METADATA = {'content/extra/favicon.ico': {'path': 'favicon.ico'},}
+STATIC_PATHS = ['extra/favicon.ico']
+EXTRA_PATH_METADATA = {'extra/favicon.ico': {'path': 'favicon.ico'},}
 
 MARKDOWN = {
     'extension_configs': {
