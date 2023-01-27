@@ -20,8 +20,8 @@ AUTHOR_FEED_RSS = None
 DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_CATEGORY = 'misc'
 IGNORE_FILES = ['content/pages/projects/template.md']
-STATIC_PATHS = ['images', 'extra/CNAME', 'extra/favicon.ico']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, 'extra/favicon.ico': {'path': 'favicon.ico'},}
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/favicon.ico', 'extra/resume.pdf']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, 'extra/favicon.ico': {'path': 'favicon.ico'}, 'extra/resume.pdf': {'path': 'resume.pdf'},}
 
 MARKDOWN = {
     'extension_configs': {
