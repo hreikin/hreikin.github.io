@@ -58,4 +58,4 @@ As this is a new "challenge" I have set myself this list is quite small but I ha
 
 ## Conclusion
 
-I have also had success using Django, Tkinter and NodeJS. Web development seems to be a perfect candidate for using phones and tablets as development environments with even low-end devices being viable as an option. I plan to see how far I can push it regarding software development with the only issue I can foresee being any system requirements of 3rd-party libraries or dependencies not being able to be installed.
+I have also had success using Django, Tkinter and NodeJS. Web development seems to be a perfect candidate for using phones and tablets as development environments with even low-end devices being viable as an option. I plan to see how far I can push it regarding software development with the only issue I can foresee being any system requirements of 3rd-party libraries or dependencies not being able to be installed due to limitations with Android or because I currently haven't rooted the device.
