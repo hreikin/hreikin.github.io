@@ -26,7 +26,8 @@ pelican --listen --ignore-cache     # Serve on development server at http://127.
 Push changes to build the updated site:
 
 ```python
-pelican content             # Important step, do not forget!
+rm -rf output               # Remove old output folder
+pelican content             # Generate content in new output folder
 ghp-import -n output        # Use ghp-import to update the gh-pages branch
 git push origin gh-pages    # Push changes
 ```
