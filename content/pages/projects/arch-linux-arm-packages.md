@@ -6,7 +6,7 @@ Status: hidden
 URL: projects/arch-linux-arm-packages
 save_as: projects/arch-linux-arm-packages.html
 
-I created the PKGBUILDs inside this repository to fix some of the earlier issues with running Arch Linux ARM and other software on the Odroid U3, ALARMDROID is the repository I created to store them in. The Odroid U3 is a Single Board Computer (SBC) much like the Raspberry Pi but with a more powerful CPU and more RAM. The Odroid U3 has been discontinued and is no longer on sale or supported but newer boards are available from HardKernel. More information about the Odroid U3 can be found at the [HardKernel Website](https://www.hardkernel.com/shop/odroid-u3/) and a brief description of it is shown below.
+I created the PKGBUILDs inside this repository to fix some of the earlier issues with running Arch Linux ARM and other software on the Odroid U3, ALARMDROID is the repository I created to store them in. The Odroid U3 is a Single Board Computer (SBC) much like the Raspberry Pi but with a more powerful CPU and more RAM. The Odroid U3 has been discontinued and is no longer on sale or supported but newer boards are available from HardKernel. More information about the Odroid U3 can be found on the [HardKernel Website](https://www.hardkernel.com/shop/odroid-u3/) and a brief description of it is shown below.
 
 >The ODROID-U3 is a very low cost and high performance development platform based on an Exynos 4412 ARM Cortex-A9 Quad Core 1.7GHz CPU. It has 3 USB 2.0 ports and micro HDMI. The board has several accessories available through Hardkernel such as 10.1" and 14" LVDS LCDs (with adapters), Wifi and Bluetooth adapters, 1.8v serial adapter, and an eMMC storage module.
 >
