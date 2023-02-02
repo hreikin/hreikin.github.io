@@ -19,7 +19,7 @@ pip install -r requirements.txt                                                 
 During development:
 
 ```python
-pelican content -d                  # Build the site in new output folder
+pelican content -d                  # Generate content in new output folder
 pelican --listen --ignore-cache     # Serve on development server at http://127.0.0.1:8000
 ```
 
