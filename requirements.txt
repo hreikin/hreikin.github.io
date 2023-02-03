@@ -11,6 +11,7 @@ markdown-link-attr-modifier==0.2.0
 MarkupSafe==2.1.1
 pelican==4.8.0
 pelican-image-process==3.0.3
+pelican-search==1.0.1
 Pillow==9.4.0
 Pygments==2.14.0
 python-dateutil==2.8.2
