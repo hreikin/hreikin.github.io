@@ -1,83 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
-  <!-- ## for client-side less
-  <link rel="stylesheet/less" type="text/css" href="https://hreikin.github.io/theme/css/style.less">
+<!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="http://127.0.0.1:8000/theme/css/style.less">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
   -->
-  <link rel="stylesheet" type="text/css" href="https://hreikin.github.io/theme/css/style.css">
-  <link rel="stylesheet" type="text/css" href="https://hreikin.github.io/theme/css/pygments.css">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="@hreikin">
-  <meta name="description" content="Posts and writings by @hreikin">
-
-
-<meta name="keywords" content="open-source, software, self-hosting, wiki">
-
-  <title>
+<link href="http://127.0.0.1:8000/theme/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="http://127.0.0.1:8000/theme/css/pygments.css" rel="stylesheet" type="text/css"/>
+<link href="//fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono" rel="stylesheet" type="text/css"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="@hreikin" name="author"/>
+<meta content="Posts and writings by @hreikin" name="description"/>
+<meta content="open-source, software, self-hosting, wiki" name="keywords"/>
+<title>
     hreikin
-&ndash; BookStack - The Self-Hosted Wiki  </title>
-
+– BookStack - The Self-Hosted Wiki  </title>
 </head>
-
 <body>
-  <aside>
-    <div id="user_meta">
-      <a href="https://hreikin.github.io">
-        <img src="https://hreikin.github.io/images/qr-code.png" alt="logo">
-      </a>
-      <h2><a href="https://hreikin.github.io">hreikin</a></h2>
-      <p>developer</p>
-      <ul>
-        <li><a href="https://hreikin.github.io/about">About</a></li>
-        <li><a href="https://hreikin.github.io/projects">Projects</a></li>
-        <li><a href="https://github.com/hreikin" target="_blank">Github</a></li>
-        <li><a href="https://gitlab.com/hreikin" target="_blank">Gitlab</a></li>
-        <li><a href="mailto:hreikin@gmail.com" target="_blank">Email</a></li>
-      </ul>
-    </div>
-  </aside>
-
-  <main>
-    <header>
-      <p>
-      <a href="https://hreikin.github.io">Index</a> &brvbar; <a href="https://hreikin.github.io/archives.html">Archives</a>
-      </p>
-    </header>
-
+<aside>
+<div id="user_meta">
+<a href="http://127.0.0.1:8000">
+<img alt="logo" src="http://127.0.0.1:8000/images/qr-code.png"/>
+</a>
+<h2><a href="http://127.0.0.1:8000">hreikin</a></h2>
+<p>developer</p>
+<ul>
+<li><a href="http://127.0.0.1:8000/about">About</a></li>
+<li><a href="http://127.0.0.1:8000/projects">Projects</a></li>
+<li><a href="https://github.com/hreikin" target="_blank">Github</a></li>
+<li><a href="https://gitlab.com/hreikin" target="_blank">Gitlab</a></li>
+<li><a href="mailto:hreikin@gmail.com" target="_blank">Email</a></li>
+</ul>
+</div>
+</aside>
+<main>
+<header>
+<p>
+<a href="http://127.0.0.1:8000">Index</a> ¦ <a href="http://127.0.0.1:8000/archives.html">Archives</a>
+</p>
+</header>
 <article>
-  <div class="article_title">
-    <h1><a href="https://hreikin.github.io/bookstack-the-self-hosted-wiki.html">BookStack - The Self-Hosted Wiki</a></h1>
-  </div>
-  <div class="article_meta">
-    <p>Posted on: Mon 28 November 2022</p>
-  </div>
-  <div class="article_text">
-    <h2>What Is BookStack?</h2>
+<div class="article_title">
+<h1><a href="http://127.0.0.1:8000/bookstack-the-self-hosted-wiki.html">BookStack - The Self-Hosted Wiki</a></h1>
+</div>
+<div class="article_meta">
+<p>Posted on: Mon 28 November 2022</p>
+</div>
+<div class="article_text">
+<h2>What Is BookStack?</h2>
 <p>BookStack is an amazing piece of Open Source wiki software and I absolutely love it, I am using BookStack at home to host information and guides I have followed for various topics along with course-related material to help with my studying. It is an easy-to-use, self-hosted platform for organising and storing information that has a very simple, yet very powerful and full-featured UI. A better description of BookStack which I have taken from the project's <a href="https://github.com/BookStackApp/BookStack" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="GitHub Page">GitHub Page</a> is below.</p>
 <blockquote>
 <p>BookStack is an opinionated wiki system that provides a pleasant and simple out-of-the-box experience. New users to an instance should find the experience intuitive and only basic word-processing skills should be required to get involved in creating content on BookStack. The platform should provide advanced power features to those that desire it but they should not interfere with the core simple user experience.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp; <strong><cite>&ndash; Dan Brown, Main Developer @ GitHub</cite></strong></p>
+<p>     <strong><cite>– Dan Brown, Main Developer @ GitHub</cite></strong></p>
 </blockquote>
 <p>BookStack was created by Dan Brown and has an awesome set of features which make it a joy to use compared to traditional wiki software which I find can be cumbersome at times. These make the process of creating documentation enjoyable rather than boring like most of the other options I have tried. You can host BookStack locally on a PC at home or online at many hosting providers, with it being built in PHP and using MySQL to store data it has very minimal system requirements. I am currently using an old netbook with 1GB of RAM and a 1 Core/2 Thread Atom processor which handles it brilliantly, I haven't tried it yet but I think an old Raspberry Pi or similar would be a great option to run this on.</p>
 <h2>What Does It Look Like?</h2>
 <p>BookStack has a sleek and modern interface with support for both dark and light themes, it is very refreshing and a far cry from some of the more traditional wiki software options. A <a href="https://demo.bookstackapp.com/login?email=admin@example.com&amp;password=password" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="Live Demo">Live Demo</a> is available on the website if you want to take a closer look at it and below I have included some screenshots from the official website to help give you an idea of what it is like.</p>
-<p><a href="/images/bookstack-book-overview-1977x1080.png" target="_blank">
-    <img src="/images/bookstack-book-overview-1977x1080.png" />
-</a>
-<a href="/images/bookstack-books-view-1977x1080.png" target="_blank">
-    <img src="/images/bookstack-books-view-1977x1080.png" />
-</a>
-<a href="/images/bookstack-image-manager-1977x1080.png" target="_blank">
-    <img src="/images/bookstack-image-manager-1977x1080.png" />
-</a>
-<a href="/images/bookstack-page-view-1977x1080.png" target="_blank">
-    <img src="/images/bookstack-page-view-1977x1080.png" />
-</a></p>
+<p><a href="images/bookstack-book-overview-1977x1080.png" target="_blank" title=""><img alt="bookstack-book-overview-1977x1080" class="image-process-article-image" src="images/derivatives/article-image/bookstack-book-overview-1977x1080.png"/></a>
+<a href="images/bookstack-books-view-1977x1080.png" target="_blank" title=""><img alt="bookstack-books-view-1977x1080" class="image-process-article-image" src="images/derivatives/article-image/bookstack-books-view-1977x1080.png"/></a>
+<a href="images/bookstack-image-manager-1977x1080.png" target="_blank" title=""><img alt="bookstack-image-manager-1977x1080" class="image-process-article-image" src="images/derivatives/article-image/bookstack-image-manager-1977x1080.png"/></a>
+<a href="images/bookstack-page-view-1977x1080.png" target="_blank" title=""><img alt="bookstack-page-view-1977x1080" class="image-process-article-image" src="images/derivatives/article-image/bookstack-page-view-1977x1080.png"/></a></p>
 <p>At the moment my BookStack wiki is a little rough around the edges as it is still a work in progress so I don't have much to show and I am only hosting it locally, once I have enough content on there I will be hosting it online alongside this website. If you want to find out more information about it and start hosting your own amazing BookStack wiki then check out the project links that I have listed down below.</p>
 <h2>Project Links</h2>
 <p>For more information about the BookStack project check out these links.</p>
@@ -90,20 +74,16 @@
 <li><a href="https://discord.gg/ztkBqR2" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="Discord Channel">Discord Channel</a></li>
 <li><a href="https://twitter.com/bookstack_app" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="Twitter">Twitter</a></li>
 </ul>
-  </div>
-  <div class="article_meta">
-    <p>Category: <a href="https://hreikin.github.io/category/homelab.html">homelab</a>
- &ndash; Tags:
-      <a href="https://hreikin.github.io/tag/open-source.html">open-source</a>,      <a href="https://hreikin.github.io/tag/software.html">software</a>,      <a href="https://hreikin.github.io/tag/self-hosting.html">self-hosting</a>,      <a href="https://hreikin.github.io/tag/wiki.html">wiki</a>    </p>
-  </div>
-
-
+</div>
+<div class="article_meta">
+<p>Category: <a href="http://127.0.0.1:8000/category/homelab.html">homelab</a>
+ – Tags:
+      <a href="http://127.0.0.1:8000/tag/open-source.html">open-source</a>,      <a href="http://127.0.0.1:8000/tag/software.html">software</a>,      <a href="http://127.0.0.1:8000/tag/self-hosting.html">self-hosting</a>,      <a href="http://127.0.0.1:8000/tag/wiki.html">wiki</a> </p>
+</div>
 </article>
-
-
-    <div id="ending_message">
-      <p>&copy; @hreikin. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>
-    </div>
-  </main>
+<div id="ending_message">
+<p>© @hreikin. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>
+</div>
+</main>
 </body>
 </html>

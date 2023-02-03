@@ -1,62 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
-  <!-- ## for client-side less
-  <link rel="stylesheet/less" type="text/css" href="https://hreikin.github.io/theme/css/style.less">
+<!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="http://127.0.0.1:8000/theme/css/style.less">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
   -->
-  <link rel="stylesheet" type="text/css" href="https://hreikin.github.io/theme/css/style.css">
-  <link rel="stylesheet" type="text/css" href="https://hreikin.github.io/theme/css/pygments.css">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="@hreikin">
-  <meta name="description" content="Posts and writings by @hreikin">
-
-
-
-  <title>
+<link href="http://127.0.0.1:8000/theme/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="http://127.0.0.1:8000/theme/css/pygments.css" rel="stylesheet" type="text/css"/>
+<link href="//fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono" rel="stylesheet" type="text/css"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="@hreikin" name="author"/>
+<meta content="Posts and writings by @hreikin" name="description"/>
+<title>
     hreikin
-&ndash; Arch Linux ARM Packages  </title>
-
+– Arch Linux ARM Packages  </title>
 </head>
-
 <body>
-  <aside>
-    <div id="user_meta">
-      <a href="https://hreikin.github.io">
-        <img src="https://hreikin.github.io/images/qr-code.png" alt="logo">
-      </a>
-      <h2><a href="https://hreikin.github.io">hreikin</a></h2>
-      <p>developer</p>
-      <ul>
-        <li><a href="https://hreikin.github.io/about">About</a></li>
-        <li><a href="https://hreikin.github.io/projects">Projects</a></li>
-        <li><a href="https://github.com/hreikin" target="_blank">Github</a></li>
-        <li><a href="https://gitlab.com/hreikin" target="_blank">Gitlab</a></li>
-        <li><a href="mailto:hreikin@gmail.com" target="_blank">Email</a></li>
-      </ul>
-    </div>
-  </aside>
-
-  <main>
-    <header>
-      <p>
-      <a href="https://hreikin.github.io">Index</a> &brvbar; <a href="https://hreikin.github.io/archives.html">Archives</a>
-      </p>
-    </header>
-
+<aside>
+<div id="user_meta">
+<a href="http://127.0.0.1:8000">
+<img alt="logo" src="http://127.0.0.1:8000/images/qr-code.png"/>
+</a>
+<h2><a href="http://127.0.0.1:8000">hreikin</a></h2>
+<p>developer</p>
+<ul>
+<li><a href="http://127.0.0.1:8000/about">About</a></li>
+<li><a href="http://127.0.0.1:8000/projects">Projects</a></li>
+<li><a href="https://github.com/hreikin" target="_blank">Github</a></li>
+<li><a href="https://gitlab.com/hreikin" target="_blank">Gitlab</a></li>
+<li><a href="mailto:hreikin@gmail.com" target="_blank">Email</a></li>
+</ul>
+</div>
+</aside>
+<main>
+<header>
+<p>
+<a href="http://127.0.0.1:8000">Index</a> ¦ <a href="http://127.0.0.1:8000/archives.html">Archives</a>
+</p>
+</header>
 <article>
-  <div class="article_title">
-    <h1><a href="https://hreikin.github.io/projects/arch-linux-arm-packages">Arch Linux ARM Packages</a></h1>
-  </div>
-  <div class="article_text">
-    <p>I created the PKGBUILDs inside this repository to fix some of the earlier issues with running Arch Linux ARM and other software on the Odroid U3, ALARMDROID is the repository I created to store them in. The Odroid U3 is a Single Board Computer (SBC) much like the Raspberry Pi but with a more powerful CPU and more RAM. The Odroid U3 has been discontinued and is no longer on sale or supported but newer boards are available from HardKernel. More information about the Odroid U3 can be found at the <a href="https://www.hardkernel.com/shop/odroid-u3/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="HardKernel Website">HardKernel Website</a> and a brief description of it is shown below.</p>
+<div class="article_title">
+<h1><a href="http://127.0.0.1:8000/projects/arch-linux-arm-packages">Arch Linux ARM Packages</a></h1>
+</div>
+<div class="article_text">
+<p>I created the PKGBUILDs inside this repository to fix some of the earlier issues with running Arch Linux ARM and other software on the Odroid U3, ALARMDROID is the repository I created to store them in. The Odroid U3 is a Single Board Computer (SBC) much like the Raspberry Pi but with a more powerful CPU and more RAM. The Odroid U3 has been discontinued and is no longer on sale or supported but newer boards are available from HardKernel. More information about the Odroid U3 can be found on the <a href="https://www.hardkernel.com/shop/odroid-u3/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="HardKernel Website">HardKernel Website</a> and a brief description of it is shown below.</p>
 <blockquote>
 <p>The ODROID-U3 is a very low cost and high performance development platform based on an Exynos 4412 ARM Cortex-A9 Quad Core 1.7GHz CPU. It has 3 USB 2.0 ports and micro HDMI. The board has several accessories available through Hardkernel such as 10.1" and 14" LVDS LCDs (with adapters), Wifi and Bluetooth adapters, 1.8v serial adapter, and an eMMC storage module.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp; <strong><cite>&ndash; Arch Linux ARM</cite></strong></p>
+<p>     <strong><cite>– Arch Linux ARM</cite></strong></p>
 </blockquote>
 <p>The packages in my ALARMDROID repository are based on some original work done by <a href="https://github.com/gripped" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="@gripped">@gripped</a> for the Odroid U2 which was an earlier version of the Odroid U3. The PKGBUILD's build and package programs such as Kodi and FFmpeg for example with changes and optimizations to get them running on the Odroid U3's hardware. These packages are no longer needed as the work upstream has superseded them and they were only created as a workaround to get things going until the upstream work was completed. If you want to find out more information about my Arch Linux ARM Packages or the Odroid U3 then please check out the project links that I have listed down below.</p>
 <h2>Project Links</h2>
@@ -68,16 +60,14 @@
 <li><a href="https://www.hardkernel.com/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="HardKernel Official Website">HardKernel Official Website</a></li>
 <li><a href="https://wiki.odroid.com/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="HardKernel Documentation">HardKernel Documentation</a></li>
 </ul>
-  </div>
-  <div class="article_meta">
-    <p>Updated on: Wed 12 January 2022</p>
-  </div>
+</div>
+<div class="article_meta">
+<p>Updated on: Wed 12 January 2022</p>
+</div>
 </article>
-
-
-    <div id="ending_message">
-      <p>&copy; @hreikin. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>
-    </div>
-  </main>
+<div id="ending_message">
+<p>© @hreikin. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>
+</div>
+</main>
 </body>
 </html>
