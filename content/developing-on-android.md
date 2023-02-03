@@ -46,7 +46,7 @@ Dex mode is available on Samsung phones and tablets and is pretty much the reaso
 
 ## Things I've Tried
 
-As this is a new "challenge" I have set myself this list is quite small but I have had no problems so far getting anything working. This whole website has been made using Code Server and the Kiwi Browser app available on Android. The website is just a simple static one created using [Pelican](https://github.com/getpelican/pelican) which is a static site generator written in Python. Previously the website used [Jekyll](https://jekyllrb.com/) and getting that set up and converted to using Pelican was no different to how it would be done on a PC.
+As this is a new "challenge" I have set myself this list is quite small but I have had no problems so far getting anything working. This whole website has been made using Code Server and the Kiwi Browser app available on Android. The website is just a simple static one created using [Pelican](https://github.com/getpelican/pelican) which is a static site generator written in Python. Previously the website used [Jekyll](https://jekyllrb.com/) and getting that set up and converted to using Pelican wasn't harder or any different to how it would be done on a PC.
 
 [![code-server-in-kiwi-browser](images/code-server-in-kiwi-browser.jpg)](images/code-server-in-kiwi-browser.jpg){: target="_blank"}
 
