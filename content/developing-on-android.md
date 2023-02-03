@@ -34,9 +34,7 @@ Termux allows you to set up a Linux development machine fairly easily, I have ma
 - Firefox
 - XFCE desktop environment
 
-<a href="/images/termux-firefox-splitscreen.jpg" target="_blank">
-    <img src="/images/termux-firefox-splitscreen.jpg" />
-</a>
+[![termux-firefox-splitscreen](images/termux-firefox-splitscreen.jpg)](images/termux-firefox-splitscreen.jpg){: target="_blank"}
 
 This is extremely useful as I'm sure you can tell, my installation script offers a minimal or desktop version with a few key differences. The minimal version comes with Code Server which allows you to run a locally available, open-source version of VS Code accessible from an Android or desktop browser. The desktop version is accessible via VNC or XserverSDL and comes with the desktop version of Firefox and Code OSS which is the open-source version of VS Code.
 
@@ -44,17 +42,13 @@ This is extremely useful as I'm sure you can tell, my installation script offers
 
 Dex mode is available on Samsung phones and tablets and is pretty much the reason I chose them over another manufacturer. It allows you to turn your device into a desktop and connect an external monitor via a cable or through casting. Other manufacturers offer similar modes but Dex has been around the longest and is probably the most mature. Dex isn't essential to being able to develop on Android but it increases usability when using a mouse and keyboard however development using just the S-Pen and normal Android keyboard without Dex works brilliantly in my experience.
 
-<a href="/images/dex-home.jpg" target="_blank">
-    <img src="/images/dex-home.jpg" />
-</a>
+[![dex-home](images/dex-home.jpg)](images/dex-home.jpg){: target="_blank"}
 
 ## Things I've Tried
 
 As this is a new "challenge" I have set myself this list is quite small but I have had no problems so far getting anything working. This whole website has been made using Code Server and the Kiwi Browser app available on Android. The website is just a simple static one created using [Pelican](https://github.com/getpelican/pelican) which is a static site generator written in Python. Previously the website used [Jekyll](https://jekyllrb.com/) and getting that set up and converted to using Pelican was no different to how it would be done on a PC.
 
-<a href="/images/code-server-in-kiwi-browser.jpg" target="_blank">
-    <img src="/images/code-server-in-kiwi-browser.jpg" />
-</a>
+[![code-server-in-kiwi-browser](images/code-server-in-kiwi-browser.jpg)](images/code-server-in-kiwi-browser.jpg){: target="_blank"}
 
 ## Conclusion
 
