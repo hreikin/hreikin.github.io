@@ -9,4 +9,4 @@ My name is Michael and I am a 33-year-old self-taught Web Designer and Python De
 
 It probably sounds a little cliché but I honestly do spend a lot of my spare time at my computer, I do have other hobbies but the one I get the most enjoyment from is using my PC. I do play games on it at times but the thing I love the most is trying out new technologies or projects and diving in head first trying to get something to work. Nothing can beat the feeling of accomplishing something I have set out to do. It is probably what attracted me to using Linux when I was younger, it was a challenge and I wasn't going to be happy until I understood how to use it.
 
-I am available to hire for freelance projects and I am also open to any Python-related job opportunities. If you would like to get in touch with me for any possible work you can find my social links available in the menu.
+I am available to hire for freelance projects and I am also open to any Python-related job opportunities. If you would like to get in touch with me you can find my social links available in the menu.
