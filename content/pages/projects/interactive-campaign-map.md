@@ -18,18 +18,10 @@ Thanks to Leaflet's powerful features there are many things that you can do with
 
 As mentioned earlier the general look and feel of the map should be familiar to anyone who has seen an interactive map online before and because you design it yourself it will look different almost every time. My proof of concept was very poorly designed if I'm honest as I only wanted to show how it worked rather than putting too much effort into polishing the design and tailoring it to a campaign that didn't exist at the time. A user of the project got in touch with me a while ago to show me what they had created and honestly, I was blown away by how great it looked and the amount of detail and effort they put into creating it. The following screenshots are taken from their map, it was created by [@kdalkarl](https://www.reddit.com/user/kdalkarl) and is available to view at [www.talanrien.com](https://www.talanrien.com/karta/).
 
-<a href="/images/interactive-campaign-map-01-1880x978.png" target="_blank">
-    <img src="/images/interactive-campaign-map-01-1880x978.png" />
-</a>
-<a href="/images/interactive-campaign-map-02-1880x978.png" target="_blank">
-    <img src="/images/interactive-campaign-map-02-1880x978.png" />
-</a>
-<a href="/images/interactive-campaign-map-03-1880x978.png" target="_blank">
-    <img src="/images/interactive-campaign-map-03-1880x978.png" />
-</a>
-<a href="/images/interactive-campaign-map-04-1880x978.png" target="_blank">
-    <img src="/images/interactive-campaign-map-04-1880x978.png" />
-</a>
+[![interactive-campaign-map-01-1880x978](/images/interactive-campaign-map-01-1880x978.png){: .image-process-article-image}](/images/interactive-campaign-map-01-1880x978.png){: target="_blank"}
+[![interactive-campaign-map-02-1880x978](/images/interactive-campaign-map-02-1880x978.png){: .image-process-article-image}](/images/interactive-campaign-map-02-1880x978.png){: target="_blank"}
+[![interactive-campaign-map-03-1880x978](/images/interactive-campaign-map-03-1880x978.png){: .image-process-article-image}](/images/interactive-campaign-map-03-1880x978.png){: target="_blank"}
+[![interactive-campaign-map-04-1880x978](/images/interactive-campaign-map-04-1880x978.png){: .image-process-article-image}](/images/interactive-campaign-map-04-1880x978.png){: target="_blank"}
 
 > **&ndash; User-created map by [@kdalkarl](https://www.reddit.com/user/kdalkarl) available to view at [www.talanrien.com](https://www.talanrien.com/karta/)**
 

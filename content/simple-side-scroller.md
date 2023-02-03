@@ -20,18 +20,10 @@ The initial inspiration for the game came from my daughter, after seeing the ins
 
 As the game will be free I am trying to keep costs to an absolute minimum so all assets used within the game are open source and freely available from various great websites like [OpenGameArt](https://opengameart.org/) and [Itch.io](https://itch.io/). Thankfully there is a vast amount of great content on these sites which made my job of finding assets much easier. I have kept the look and feel of Simple Side Scroller similar to games like Super Mario with a slightly more modern approach to the assets rather than going for the traditional retro look.
 
-<a href="/images/simple-side-scroller-01.png" target="_blank">
-    <img src="/images/simple-side-scroller-01.png" />
-</a>
-<a href="/images/simple-side-scroller-02.png" target="_blank">
-    <img src="/images/simple-side-scroller-02.png" />
-</a>
-<a href="/images/simple-side-scroller-03.png" target="_blank">
-    <img src="/images/simple-side-scroller-03.png" />
-</a>
-<a href="/images/simple-side-scroller-04.png" target="_blank">
-    <img src="/images/simple-side-scroller-04.png" />
-</a>
+[![simple-side-scroller-01](images/simple-side-scroller-01.png){: .image-process-article-image}](images/simple-side-scroller-01.png){: target="_blank"}
+[![simple-side-scroller-02](images/simple-side-scroller-02.png){: .image-process-article-image}](images/simple-side-scroller-02.png){: target="_blank"}
+[![simple-side-scroller-03](images/simple-side-scroller-03.png){: .image-process-article-image}](images/simple-side-scroller-03.png){: target="_blank"}
+[![simple-side-scroller-04](images/simple-side-scroller-04.png){: .image-process-article-image}](images/simple-side-scroller-04.png){: target="_blank"}
 
 The basic concept for the game is similar to any other side scroller like Super Mario, the player has to complete the level within the time limit, defeating enemies and collecting coins, gems and the key required to exit the level along the way. The player can choose between different characters with different abilities to complete the game, spending the gems they collect while playing to use their abilities. Development is moving along quickly and I expect a beta release to be available soon, stay tuned for future development updates on the blog or check out the project links listed down below.
 

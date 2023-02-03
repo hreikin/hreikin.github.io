@@ -39,24 +39,12 @@ I have quite a few different services running on my various devices and will try
 
 The netbook I use to host my BookStack wiki while the Raspberry Pi Zero 2 has an Apache web server running and is also my Docker test machine that I use for trying out various programs and services to see if I like them before deploying them to the Odroid U3.
 
-<a href="/images/home-lab-01.png" target="_blank">
-    <img src="/images/home-lab-01.png" />
-</a>
-<a href="/images/home-lab-02.png" target="_blank">
-    <img src="/images/home-lab-02.png" />
-</a>
-<a href="/images/home-lab-03.png" target="_blank">
-    <img src="/images/home-lab-03.png" />
-</a>
-<a href="/images/home-lab-04.png" target="_blank">
-    <img src="/images/home-lab-04.png" />
-</a>
-<a href="/images/home-lab-05.png" target="_blank">
-    <img src="/images/home-lab-05.png" />
-</a>
-<a href="/images/home-lab-06.png" target="_blank">
-    <img src="/images/home-lab-06.png" />
-</a>
+[![home-lab-01](images/home-lab-01.png){: .image-process-article-image}](images/home-lab-01.png){: target="_blank"}
+[![home-lab-02](images/home-lab-02.png){: .image-process-article-image}](images/home-lab-02.png){: target="_blank"}
+[![home-lab-03](images/home-lab-03.png){: .image-process-article-image}](images/home-lab-03.png){: target="_blank"}
+[![home-lab-04](images/home-lab-04.png){: .image-process-article-image}](images/home-lab-04.png){: target="_blank"}
+[![home-lab-05](images/home-lab-05.png){: .image-process-article-image}](images/home-lab-05.png){: target="_blank"}
+[![home-lab-06](images/home-lab-06.png){: .image-process-article-image}](images/home-lab-06.png){: target="_blank"}
 
 Each of these little machines runs perfectly for what I have been using them for and still has room to grow without taking up much space or costing much in electricity either. Next on my wishlist is a Raspberry Pi 4B with a Cluster HAT and 4 x Raspberry Pi Zero 2's so I can practice cluster computing at home with an affordable setup.
 

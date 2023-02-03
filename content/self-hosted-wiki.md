@@ -21,18 +21,10 @@ BookStack was created by Dan Brown and has an awesome set of features which make
 
 BookStack has a sleek and modern interface with support for both dark and light themes, it is very refreshing and a far cry from some of the more traditional wiki software options. A [Live Demo](https://demo.bookstackapp.com/login?email=admin@example.com&password=password) is available on the website if you want to take a closer look at it and below I have included some screenshots from the official website to help give you an idea of what it is like.
 
-<a href="/images/bookstack-book-overview-1977x1080.png" target="_blank">
-    <img src="/images/bookstack-book-overview-1977x1080.png" />
-</a>
-<a href="/images/bookstack-books-view-1977x1080.png" target="_blank">
-    <img src="/images/bookstack-books-view-1977x1080.png" />
-</a>
-<a href="/images/bookstack-image-manager-1977x1080.png" target="_blank">
-    <img src="/images/bookstack-image-manager-1977x1080.png" />
-</a>
-<a href="/images/bookstack-page-view-1977x1080.png" target="_blank">
-    <img src="/images/bookstack-page-view-1977x1080.png" />
-</a>
+[![bookstack-book-overview-1977x1080](images/bookstack-book-overview-1977x1080.png){: .image-process-article-image}](images/bookstack-book-overview-1977x1080.png){: target="_blank"}
+[![bookstack-books-view-1977x1080](images/bookstack-books-view-1977x1080.png){: .image-process-article-image}](images/bookstack-books-view-1977x1080.png){: target="_blank"}
+[![bookstack-image-manager-1977x1080](images/bookstack-image-manager-1977x1080.png){: .image-process-article-image}](images/bookstack-image-manager-1977x1080.png){: target="_blank"}
+[![bookstack-page-view-1977x1080](images/bookstack-page-view-1977x1080.png){: .image-process-article-image}](images/bookstack-page-view-1977x1080.png){: target="_blank"}
 
 At the moment my BookStack wiki is a little rough around the edges as it is still a work in progress so I don't have much to show and I am only hosting it locally, once I have enough content on there I will be hosting it online alongside this website. If you want to find out more information about it and start hosting your own amazing BookStack wiki then check out the project links that I have listed down below.
 
