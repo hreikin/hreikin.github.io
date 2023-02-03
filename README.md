@@ -4,6 +4,11 @@ This repository holds the files for my website [hreikin.co.uk](https://hreikin.c
 
 ## Instructions
 
+### External Dependencies
+
+- Pillow/PIL
+- Stork Search
+
 ### Setup
 
 ```sh
