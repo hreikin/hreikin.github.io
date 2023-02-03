@@ -1,0 +1,33 @@
+[input]
+base_directory = "output"
+html_selector = "main"
+
+[[input.files]]
+path = "about.html"
+url = "/about"
+title = "About"
+
+[[input.files]]
+path = "projects.html"
+url = "/projects"
+title = "Projects"
+
+[[input.files]]
+path = "developing-on-android.html"
+url = "/developing-on-android.html"
+title = "Developing On Android"
+
+[[input.files]]
+path = "my-homelab.html"
+url = "/my-homelab.html"
+title = "My HomeLab"
+
+[[input.files]]
+path = "bookstack-the-self-hosted-wiki.html"
+url = "/bookstack-the-self-hosted-wiki.html"
+title = "BookStack - The Self-Hosted Wiki"
+
+[[input.files]]
+path = "simple-side-scroller.html"
+url = "/simple-side-scroller.html"
+title = "Simple Side Scroller"

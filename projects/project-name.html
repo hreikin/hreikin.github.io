@@ -9,6 +9,7 @@
 <link href="https://hreikin.github.io/theme/css/style.css" rel="stylesheet" type="text/css"/>
 <link href="https://hreikin.github.io/theme/css/pygments.css" rel="stylesheet" type="text/css"/>
 <link href="//fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono" rel="stylesheet" type="text/css"/>
+<link href="https://hreikin.github.io/theme/css/stork.css" rel="stylesheet"/>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="@hreikin" name="author"/>
@@ -37,6 +38,8 @@
 <main>
 <header>
 <p>
+<input data-stork="sitesearch"/>
+<div data-stork="sitesearch-output"></div>
 <a href="https://hreikin.github.io">Index</a> ¦ <a href="https://hreikin.github.io/archives.html">Archives</a>
 </p>
 </header>
@@ -54,5 +57,11 @@
 <p>© @hreikin. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>
 </div>
 </main>
+<script src="https://hreikin.github.io/theme/js/stork.js"></script>
+<script>
+    stork.initialize("https://hreikin.github.io/theme/js/stork.wasm")
+    stork.downloadIndex("sitesearch", "https://hreikin.github.io/search-index.st")
+    stork.attach("sitesearch")
+</script>
 </body>
 </html>
