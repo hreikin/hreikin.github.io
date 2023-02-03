@@ -27,6 +27,6 @@ Push changes to build the updated site:
 
 ```python
 pelican content -d          # Generate content in new output folder
-ghp-import -n output        # Use ghp-import to update the gh-pages branch
+ghp-import -n output        # Use ghp-import to update the gh-pages branch and include a .nojekyll file
 git push origin gh-pages    # Push changes
 ```
