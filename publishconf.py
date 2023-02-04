@@ -11,8 +11,8 @@ SITEURL = 'https://hreikin.github.io'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
-AUTHOR_FEED_ATOM = 'feeds/{slug}.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/categories.atom.xml'
+AUTHOR_FEED_ATOM = 'feeds/hreikin.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
