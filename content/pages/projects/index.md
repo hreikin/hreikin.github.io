@@ -10,5 +10,6 @@ Here are some of my projects, more information about each one can be found by cl
 - [Arch Linux ARM Packages](/projects/arch-linux-arm-packages) *(BASH, Linux, Packaging, Shell)*
 - [Gen Pygments CSS](/projects/gen-pygments-css) *(CI/CD Workflows, CSS, Packaging, Python)*
 - [Interactive Campaign Map](/projects/interactive-campaign-map) *(Leaflet JS)*
+- [Pelican Custom CSS](/projects/pelican-custom-css) *(CI/CD Workflows, CSS, Packaging, Python)*
 - [Termux Dev Setups](/projects/termux-dev-setups) *(Android, BASH, Linux, Shell)*
 - [TkinterMD](/projects/tkintermd) *(CI/CD Workflows, GUI, Packaging, Python, Tkinter)*
