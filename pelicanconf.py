@@ -1,6 +1,6 @@
 AUTHOR = '@hreikin'
 SITENAME = 'hreikin'
-TAGLINE = "developer"
+TAGLINE = "python developer"
 SITEURL = 'https://hreikin.github.io'
 THEME = 'pelican-svbhack'
 PATH = 'content'
