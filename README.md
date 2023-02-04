@@ -31,7 +31,7 @@ pelican --listen --ignore-cache     # Serve on development server at http://127.
 Push changes to build the updated site:
 
 ```python
-pelican content -d          # Generate content in new output folder
-ghp-import -n output        # Use ghp-import to update the gh-pages branch and include a .nojekyll file
-git push origin gh-pages    # Push changes
+pelican content -d -s publishconf.py    # Generate content in new output folder using publishconf.py
+ghp-import -n output                    # Use ghp-import to update the gh-pages branch and include a .nojekyll file
+git push origin gh-pages                # Push changes
 ```
