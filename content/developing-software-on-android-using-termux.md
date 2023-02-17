@@ -8,9 +8,9 @@ Summary: My initial experiences trying web and software development on Android u
 Lang: en
 Series: Developing Software On Android Using Termux
 
-Using Android for software or web development hasn't always been an easy or stable experience in the past however in recent years it has come on leaps and bounds. Previously I have used my phone to do things in a pinch when I have had no other option but recently I bought myself a tablet and wanted to see how feasible it would be to use it for software or web development and how far I could push it before running into any deal-breaking issues.
+*Using Android for software or web development hasn't always been an easy or stable experience in the past however in recent years it has come on leaps and bounds. This is the 1st post in my series on "Developing Software On Android Using Termux", I will cover the apps used and my initial thoughts and impressions.*
 
-I have never owned a tablet but the family has so as this was a rare treat for me I decided to choose a high-end one. The tablet in question is a Samsung S8 Ultra that comes with:
+Previously I have used my phone to do things in a pinch when I have had no other option but recently I bought myself a tablet and wanted to see how feasible it would be to use it for software or web development and how far I could push it before running into any deal-breaking issues. I have never owned a tablet but the family has so as this was a rare treat for me I decided to choose a high-end one. The tablet in question is a Samsung S8 Ultra that comes with:
 
 - 256 GB storage (expandable by microSD)
 - 12 GB of RAM
