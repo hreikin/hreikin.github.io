@@ -15,9 +15,10 @@
 <meta content="@hreikin" name="author"/>
 <meta content="Posts and writings by @hreikin" name="description"/>
 <link href="https://hreikin.github.io/feeds/all.atom.xml" rel="alternate" title="hreikin Atom" type="application/atom+xml">
+<meta content="" name="keywords"/>
 <title>
     hreikin
-– Tags  </title>
+– Notes  </title>
 </link></head>
 <body>
 <aside>
@@ -46,19 +47,36 @@
 </p>
 </header>
 <article>
+<div class="article_title">
+<h1><a href="https://hreikin.github.io/notes.html">Notes</a></h1>
+</div>
+<div class="article_meta">
+<p>Posted on: Tue 20 December 2022</p>
+</div>
 <div class="article_text">
-<ul> <li><a href="https://hreikin.github.io/tag/dev.html">dev</a> (2)</li>
-<li><a href="https://hreikin.github.io/tag/gaming.html">gaming</a> (1)</li>
-<li><a href="https://hreikin.github.io/tag/mobile.html">mobile</a> (2)</li>
-<li><a href="https://hreikin.github.io/tag/open-source.html">open-source</a> (2)</li>
-<li><a href="https://hreikin.github.io/tag/self-hosting.html">self-hosting</a> (2)</li>
-<li><a href="https://hreikin.github.io/tag/simple-side-scroller.html">simple-side-scroller</a> (1)</li>
-<li><a href="https://hreikin.github.io/tag/software.html">software</a> (2)</li>
-<li><a href="https://hreikin.github.io/tag/termux.html">termux</a> (2)</li>
-<li><a href="https://hreikin.github.io/tag/ue4.html">ue4</a> (1)</li>
-<li><a href="https://hreikin.github.io/tag/wiki.html">wiki</a> (2)</li>
+<h1>Mobile Development Errors &amp; Issues</h1>
+<p>Install error/solutions for <code>django</code> and <code>wagtail</code>:</p>
+<ul>
+<li>Django and Wagtail need <code>tzdata</code> to be installed via pip otherwise the admin sites will encounter internal server errors within a few minutes of starting.</li>
+</ul>
+<p>Install error/solutions for <code>streamlit</code>:</p>
+<ul>
+<li><a href="https://github.com/termux/termux-packages/issues/10326" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="PyArrow fix">PyArrow fix</a> - install <code>libarrow-cpp</code></li>
+<li><a href="https://github.com/termux/termux-packages/issues/10808" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="Numpy fix">Numpy fix</a> - <code>export $MATHLIB="m"</code> then <code>pip install streamlit</code></li>
+<li><a href="https://www.reddit.com/r/termux/comments/10oal39/pandas_install_fails_building_wheel_for_old_numpy/j6esu91?utm_medium=android_app&amp;utm_source=share&amp;context=3" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank" title="Streamlit fix">Streamlit fix</a> - <code>export LDFLAGS="-lpython3.11"</code></li>
+</ul>
+<p>Install error solutions for <code>pywebview</code>:</p>
+<ul>
+<li><code>pkg install pycairo pygobject</code> and/or <code>pip install pycairo pygobject</code></li>
+<li>In <code>.venv</code> folder, change version of program if required. It could be different programs that cause the error if installed at different times due to termux only providing single versions of most programs. Check the error message for which ones to look for. The error i encountered couldn't import <code>gi</code> or find <code>libc.6.so</code>.</li>
+<li>The webview needs to run via vncserver or xserver otherwise you will receive a <code>failed to open display</code> error. When creating an app that uses a GUI development is best done via <code>Termux X11</code>, <code>chroot</code> or <code>proot</code> to avoid this issue.</li>
 </ul>
 </div>
+<div class="article_meta">
+<p>Category: <a href="https://hreikin.github.io/category/misc.html">misc</a>
+</p>
+</div>
+<!-- Pelican Series Plugin -->
 </article>
 <div id="ending_message">
 <p>© @hreikin. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>

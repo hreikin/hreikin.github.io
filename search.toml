@@ -13,9 +13,14 @@ url = "/projects"
 title = "Projects"
 
 [[input.files]]
-path = "developing-on-android.html"
-url = "/developing-on-android.html"
-title = "Developing On Android"
+path = "first-impressions-with-software-development-on-termux.html"
+url = "/first-impressions-with-software-development-on-termux.html"
+title = "First Impressions With Software Development On Termux"
+
+[[input.files]]
+path = "developing-software-on-android-using-termux.html"
+url = "/developing-software-on-android-using-termux.html"
+title = "Developing Software On Android Using Termux"
 
 [[input.files]]
 path = "my-homelab.html"

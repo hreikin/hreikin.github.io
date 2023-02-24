@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="https://hreikin.github.io/theme/css/style.less">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
+  -->
+<link href="https://hreikin.github.io/theme/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="https://hreikin.github.io/theme/css/pygments.css" rel="stylesheet" type="text/css"/>
+<link href="//fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono" rel="stylesheet" type="text/css"/>
+<link href="https://hreikin.github.io/theme/css/stork.css" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="@hreikin" name="author"/>
+<meta content="Posts and writings by @hreikin" name="description"/>
+<link href="https://hreikin.github.io/feeds/all.atom.xml" rel="alternate" title="hreikin Atom" type="application/atom+xml">
+<meta content="dev, mobile, termux" name="keywords"/>
+<title>
+    hreikin
+– Installation Errors And Solutions  </title>
+</link></head>
+<body>
+<aside>
+<div id="user_meta">
+<a href="https://hreikin.github.io">
+<img alt="logo" src="https://hreikin.github.io/images/qr-code.png"/>
+</a>
+<h2><a href="https://hreikin.github.io">hreikin</a></h2>
+<p>python developer</p>
+<ul>
+<li><a href="https://hreikin.github.io/about">About</a></li>
+<li><a href="https://hreikin.github.io/projects">Projects</a></li>
+<li><a href="https://github.com/hreikin" target="_blank">Github</a></li>
+<li><a href="https://gitlab.com/hreikin" target="_blank">Gitlab</a></li>
+<li><a href="mailto:hreikin@gmail.com" target="_blank">Email</a></li>
+</ul>
+</div>
+</aside>
+<main>
+<header>
+<input data-stork="sitesearch"/>
+<div data-stork="sitesearch-output"></div>
+<p>
+<a href="https://hreikin.github.io">Index</a> ¦ <a href="https://hreikin.github.io/archives.html">Archives</a>
+      ¦ <a href="https://hreikin.github.io/feeds/all.atom.xml">Atom</a>
+</p>
+</header>
+<article>
+<div class="article_title">
+<h1><a href="https://hreikin.github.io/drafts/installation-errors-and-solutions.html">Installation Errors And Solutions</a></h1>
+</div>
+<div class="article_meta">
+<p>Posted on: Tue 28 February 2023</p>
+</div>
+<div class="article_text">
+<p><em>This will be the 3rd post in my series on "Developing Software On Android Using Termux", I will cover any errors or common pitfalls I have encountered along the way as well as the solutions I used to fix them.</em></p>
+<p>Most things I have tried so far when developing on my tablet with Termux have worked without any issues but there have been a few stumbling blocks along the way. None of these issues has been major and they tend to be more to do with the installation of a dependency than any other part of development.</p>
+<h3>Django &amp; Wagtail</h3>
+<p>First up was an issue I encountered when using Django and Wagtail, shortly after running the development server the admin site and server would become unresponsive, this was caused by it not finding the required time-zone information. To fix this I simply ran <code>pip install tzdata</code> to install it within the virtual environment.</p>
+<h3>Streamlit</h3>
+<p>The next issue I encountered came when I wanted to try out <code>streamlit</code> and required multiple fixes for different problems. This sounds quite bad but the solutions were easy enough to find via Google and aren't complicated. The first error required me to <code>pkg install libarrow-cpp</code> to fix an issue with <code>pyarrow</code> not finding the required <code>.so</code> files.</p>
+<p>The second issue was because <code>streamlit</code> requires <code>numpy</code> and <code>numpy</code> on Termux needs the <code>$MATHLIB</code> variable set before installing otherwise it will fail to build. This is an easy fix albeit with a bit of a quirk which I will get to shortly. Setting the <code>$MATHLIB</code> variable is done by running <code>export MATHLIB="m"</code> which can be added to your <code>.bashrc</code> file if you want it to be permanent. After this, I installed <code>numpy</code> before installing <code>streamlit</code> which turned out to be a mistake, the installation worked perfectly with the only problem being; even though I had already installed <code>numpy</code> when I then installed <code>streamlit</code> it proceeded to build and install <code>numpy</code> again. I never managed to find out why this happened and as things were now installed I decided to carry on testing instead of figuring it out.</p>
+<p>The final error related to <code>streamlit</code> came when trying to run the demo but luckily while researching the <code>numpy</code> issue I had already found the answer and knew it was the fix straight away. To finally enjoy learning about and testing <code>streamlit</code> all I had to do was run <code>export LDFLAGS="-lpython3.11"</code> due to a version mismatch.</p>
+<h3>Pywebview</h3>
+</div>
+<div class="article_meta">
+<p>Category: <a href="https://hreikin.github.io/category/mobile-dev.html">mobile-dev</a>
+ – Tags:
+      <a href="https://hreikin.github.io/tag/dev.html">dev</a>,      <a href="https://hreikin.github.io/tag/mobile.html">mobile</a>,      <a href="https://hreikin.github.io/tag/termux.html">termux</a> </p>
+</div>
+<!-- Pelican Series Plugin -->
+<p>This post is part <built-in 0x76ece29a10="" at="" index="" method="" object="" of="" str=""> of the "" series:</built-in></p>
+<ol class="parts">
+</ol>
+</article>
+<div id="ending_message">
+<p>© @hreikin. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>
+</div>
+</main>
+<script src="https://hreikin.github.io/theme/js/stork.js"></script>
+<script>
+    stork.initialize("https://hreikin.github.io/theme/js/stork.wasm")
+    stork.downloadIndex("sitesearch", "/search-index.st")
+    stork.attach("sitesearch")
+</script>
+</body>
+</html>
