@@ -1,5 +1,5 @@
 Title: First Impressions With Software Development On Termux
-Date: 2023-02-16 19:56
+Date: 2023-02-24 19:56
 Category: mobile-dev
 Tags: dev, mobile, termux,
 Keywords: dev, development, linux, mobile, termux,
